@@ -34,3 +34,4 @@ sqlite3 /home/db/finance.db
 ```
 
 
+"# financeTgBot" 
