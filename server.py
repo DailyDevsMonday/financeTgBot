@@ -13,13 +13,13 @@ from categories import Categories
 
 logging.basicConfig(level=logging.INFO)
 
-API_TOKEN = "1174679410:AAHFJjhltDHF9D0btD0DCHvbI0Kz-sGpIk0"
+API_TOKEN = "YOUR TOKEN"
 # PROXY_URL = os.getenv("TELEGRAM_PROXY_URL")
 # PROXY_AUTH = aiohttp.BasicAuth(
 #     login=os.getenv("TELEGRAM_PROXY_LOGIN"),
 #     password=os.getenv("TELEGRAM_PROXY_PASSWORD")
 # )
-ACCESS_ID = os.getenv("507231631")
+ACCESS_ID = os.getenv("YOUR ACCESS ID")
 
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot)
